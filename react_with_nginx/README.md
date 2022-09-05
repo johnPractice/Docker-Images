@@ -1,1 +1,1 @@
-# Docker-Images
+# Dockerize React project
