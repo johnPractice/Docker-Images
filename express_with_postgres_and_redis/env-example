@@ -1,0 +1,13 @@
+# Server Config
+PORT=8001
+# DB Config
+POSTGRES_PASSWORD=postgres
+POSTGRES_USER=postgres
+POSTGRES_PORT=5432
+POSTGRES_HOST=postgres
+DB_NAME=test
+# Redis Config
+REDIS_HOST= redis
+REDIS_PORT= 6379
+REDIS_PASSWORD= eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+REDIS_URL=redis://redis
