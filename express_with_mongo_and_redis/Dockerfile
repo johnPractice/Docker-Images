@@ -1,7 +1,8 @@
 FROM node:16
 COPY ./package.json .
 RUN npm i --only=production
-RUN npm i typescript ts-node
+# if use type script
+# RUN npm i typescript 
 COPY . .
-EXPOSE 8001
+EXPOSE 3000
 CMD [ "npm", "run","start" ]
