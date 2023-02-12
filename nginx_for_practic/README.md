@@ -1,0 +1,27 @@
+# Nginx For Practic
+
+## Config File
+Nginx config file structure using <b>Block Directive</b>.(A simple directive consists of the name and parameters separated by spaces and ends with a semicolon (";"))
+ex:
+```
+http {
+    .....
+    server {
+        ....
+    }
+    .....
+}
+```
+
+## Nginx Command 
+```
+nginx -s [signal]
+
+signal : 
+[
+- stop — fast shutdown
+- quit — graceful shutdown
+- reload — reloading the configuration file
+- reopen — reopening the log files
+]
+```
